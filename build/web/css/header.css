@@ -1,0 +1,71 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21/07/2023, 3:44:18 PM
+    Author     : Giga P34
+*/
+
+body {
+    margin:10%;
+}
+header{
+    padding:auto;
+}
+img{
+    display:block;
+    width:35rem;  
+    margin:auto;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+button ,input, a {
+    cursor: pointer;
+    outline: 0;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #0d6efd;
+    border-color: #0d6efd;    
+}
+
+button:hover, a:hover, form .button:hover {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+}
+nav{
+    display:flex;
+}
+a{
+    margin:1px;
+    display:flex;
+    width:50%;
+    align-items: center;
+}
+
+input{
+    text-align: left;    
+    color:#1f1e33;
+    width:95%;
+    padding:0 2.5%rem;    
+}
+
+form .button{    
+    text-align: center;
+    width:99%;
+    margin: 2px 0;
+}

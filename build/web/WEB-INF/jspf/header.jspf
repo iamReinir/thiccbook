@@ -1,0 +1,6 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<header>    
+    <img src="/ws1banner.png" alt='Reinir Thicc Books'>
+    <h1> Reinir's Thicc Books </h1>
+</header>
